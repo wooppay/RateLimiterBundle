@@ -1,5 +1,5 @@
 {
-    "name": "guacomole/rate-limiter",
+    "name": "wooppay/rate-limiter",
     "description": "Simple rate limiter bundle",
     "type": "symfony-bundle",
     "license": "MIT",
@@ -25,19 +25,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Guacomole\\Bundle\\RateLimiter\\": "src"
-        },
-        "exclude-from-classmap": [
-            "/tests/"
-        ]
+            "wooppay\\RateLimiterBundle\\": "src"
+        }
+
     },
     "autoload-dev": {
         "psr-4": {
-            "Guacomole\\Bundle\\RateLimiter\\": "src"
-        },
-        "exclude-from-classmap": [
-            "/tests/"
-        ]
+            "wooppay\\RateLimiterBundle\\": "src"
+        }
     },
     "replace": {
         "paragonie/random_compat": "2.*",
