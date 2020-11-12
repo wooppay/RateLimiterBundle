@@ -1,0 +1,11 @@
+parameters:
+  wooppay_rate_limit_event_listener_class: App\wooppay\RateLimiterBundle\EventListener\RequestListener
+
+services:
+  wooppay_rate_limit_event_listener:
+    class: "%wooppay_rate_limit_event_listener_class%"
+    tags:
+      - { name: kernel.event_listener, event: kernel.request, priority: 8 }
+    arguments:
+      $rateLimiterStorage: "%rate_limiter.storage_service%"
+      $annotationReader: Doctrine\Common\Annotations\Reader
