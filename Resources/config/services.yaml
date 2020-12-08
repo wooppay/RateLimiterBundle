@@ -1,5 +1,5 @@
 parameters:
-  wooppay_rate_limit_event_listener_class: App\wooppay\RateLimiterBundle\EventListener\RequestListener
+  wooppay_rate_limit_event_listener_class: wooppay\RateLimiterBundle\EventListener\RequestListener
 
 services:
   wooppay_rate_limit_event_listener:
