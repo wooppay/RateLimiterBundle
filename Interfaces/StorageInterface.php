@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\wooppay\RateLimiterBundle\Interfaces;
+namespace wooppay\RateLimiterBundle\Interfaces;
 
 
 interface StorageInterface

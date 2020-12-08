@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\wooppay\RateLimiterBundle\DependencyInjection;
+namespace wooppay\RateLimiterBundle\DependencyInjection;
 
 
 use Symfony\Component\Config\FileLocator;

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\wooppay\RateLimiterBundle;
+namespace wooppay\RateLimiterBundle;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;

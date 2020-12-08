@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\wooppay\RateLimiterBundle\Annotation;
+namespace wooppay\RateLimiterBundle\Annotation;
 
 use Doctrine\Common\Annotations\Annotation;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\ConfigurationAnnotation;

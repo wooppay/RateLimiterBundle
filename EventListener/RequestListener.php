@@ -1,9 +1,9 @@
 <?php
 
-namespace App\wooppay\RateLimiterBundle\EventListener;
+namespace wooppay\RateLimiterBundle\EventListener;
 
-use App\wooppay\RateLimiterBundle\Annotation\RateLimit;
-use App\wooppay\RateLimiterBundle\Interfaces\StorageInterface;
+use wooppay\RateLimiterBundle\Annotation\RateLimit;
+use wooppay\RateLimiterBundle\Interfaces\StorageInterface;
 use Doctrine\Common\Annotations\Reader;
 use ReflectionClass;
 use Symfony\Component\HttpKernel\Event\RequestEvent;
