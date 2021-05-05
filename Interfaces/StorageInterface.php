@@ -9,4 +9,6 @@ interface StorageInterface
 	public function save(string $ip, string $route) : void;
 
 	public function getCount(string $ip, string $route, int $period) : int;
+
+	public function getGeneralCount(string $ip, int $period) : int;
 }

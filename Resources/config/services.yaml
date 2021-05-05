@@ -8,4 +8,10 @@ services:
       - { name: kernel.event_listener, event: kernel.request, priority: 8 }
     arguments:
       $rateLimiterStorage: "%rate_limiter.storage_service%"
+      $allowedIPs: "%rate_limiter.allowed_IPs%"
+      $enabled: "%rate_limiter.enabled%"
       $annotationReader: Doctrine\Common\Annotations\Reader
+      $generalLimit: "%rate_limiter.general_limit%"
+      $ipHeader: "%rate_limiter.ip_header%"
+      $strictIP: "%rate_limiter.strict_ip%"
+      $customException: "%rate_limiter.custom_exception%"
